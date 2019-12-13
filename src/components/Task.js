@@ -11,16 +11,16 @@ const Task = ({ task }) => {
 			<span id={"task"+task.id}>{task.title}</span>
 			<div>
 				<button 
-					onClick={() => removeTask(task.id)} 
-					className="btn-delete task-btn"
-				>
-					<i className="fas fa-trash-alt"></i>
-				</button>
-				<button 
 					onClick={() => findItem(task.id)} 
 					className="btn-edit task-btn"
 				>
 					<i className="fas fa-pen"></i>
+				</button>
+				<button 
+					onClick={() => removeTask(task.id)} 
+					className="btn-delete task-btn"
+				>
+					<i className="fas fa-trash-alt"></i>
 				</button>
 			</div>
 		</li>

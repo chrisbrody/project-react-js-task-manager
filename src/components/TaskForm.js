@@ -46,6 +46,7 @@ const TaskForm = () => {
 				value={title}
 				className="task-input"
 				required
+				placeholder="Create a task..."
 			/>
 			<div className="buttons">
 				<button 
@@ -55,7 +56,7 @@ const TaskForm = () => {
 				</button>
 				<button  
 					onClick={clearList}
-					className="btn clear-btn">Clear
+					className="btn clear-btn">Clear 
 				</button>
 			</div>
 		</form>

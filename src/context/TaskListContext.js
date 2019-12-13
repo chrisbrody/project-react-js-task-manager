@@ -57,7 +57,8 @@ const TaskListContextProvider = props => {
 				clearList,
 				findItem,
 				editTask, 
-				editItem
+				editItem,
+				initialState
 			}}
 		>
 			{props.children}
